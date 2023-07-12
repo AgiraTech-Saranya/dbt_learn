@@ -1,0 +1,21 @@
+With customers as 
+  (
+    select * from {{ref("customers_model")}}
+  ),
+  orders as 
+  (
+    select * from {{ref("orders_model")}}
+  ),
+  customer_orders as 
+  (
+    select distinct c.`Customer ID`,
+          c.`Customer Name`,
+          c.`Order ID`,
+          c.`Ship Date`,
+          o.Profit,
+          o.Sales
+  from customers c full outer join orders o on c.`Customer ID` = o.`Customer ID` 
+    where c.`Order Priority` ="High"
+  )
+
+  select * from customer_orders
