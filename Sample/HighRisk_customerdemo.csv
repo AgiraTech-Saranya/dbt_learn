@@ -1,0 +1,11 @@
+﻿With staging as
+(
+    select * from staging_status.sql
+),
+
+HighRisk_Status as
+(
+
+)
+
+select * from staging
