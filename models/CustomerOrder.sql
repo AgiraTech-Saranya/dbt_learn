@@ -6,7 +6,7 @@ with customer_orders as (
    from `dbt_agiratechsaranya.SampleOrders` where order_priority = 'Critical' 
 )
 
-select * from customer_orders
+select * from customer_orders --commit
 
 
 
