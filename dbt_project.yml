@@ -41,4 +41,5 @@ models:
     Transforming:
      materialized: view
     Loading:
-     materialized: view
+     materialized: view 
+# loaded some folders and their mateiraliation 
