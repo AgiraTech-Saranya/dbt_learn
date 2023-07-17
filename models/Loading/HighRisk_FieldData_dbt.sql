@@ -2,7 +2,7 @@
 
 With HighRisk_Information as
 (
-    select * from {{ref("HighRisk_Flag_Info")}}
+    select * from {{ref("HighRisk_FlagInfo_dbt")}}
 ),
 
 Field_data as
