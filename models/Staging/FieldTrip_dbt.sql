@@ -3,6 +3,6 @@
 With FieldTrip AS
  (
       SELECT VZID as FieldTrip_VZID,*       
-      FROM NYC_FHT_VehicleInsurance.FieldTrip
+      FROM data-engineering-learn.dbtcore_project.FieldTrip
  )
 select * from FieldTrip

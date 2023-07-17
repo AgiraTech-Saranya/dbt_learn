@@ -10,6 +10,6 @@ WITH
         Status_Code as SHL_StatusCode,
         Expiration_Date as SHL_Expiration_Date
       FROM
-        NYC_FHT_VehicleInsurance.SHL_Driver
+        data-engineering-learn.dbtcore_project.SHL_Driver
         )
 select * from SHL_Driver

@@ -8,6 +8,7 @@ With MedallianDriver_Active AS (
         Expiration_Date,
         Type
       FROM
-        NYC_FHT_VehicleInsurance.MedallianDriver_active )
+        data-engineering-learn.dbtcore_project.MedallianDriver_active 
+        )
         
 Select * from MedallianDriver_Active

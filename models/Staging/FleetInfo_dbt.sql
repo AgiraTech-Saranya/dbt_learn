@@ -15,6 +15,7 @@
         VEHICLE_YEAR,
         VEHICLE_OWNERSHIP_TYPE
       FROM
-       NYC_FHT_VehicleInsurance.FleetInformation )
+       data-engineering-learn.dbtcore_project.FleetInformation
+       )
        
 select * from FleetInfo
